@@ -17,6 +17,7 @@ namespace Task1_2
                 Console.WriteLine(val);
             Console.WriteLine("-------------------------------------------------");
             IEnumerable<string> sortedValues = values.OrderBy(str => str.Length);
+            Console.WriteLine("Array sorted by string length:\n");
             foreach (var val in sortedValues)
                 Console.WriteLine(val);
             Console.ReadKey();
