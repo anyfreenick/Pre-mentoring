@@ -32,6 +32,7 @@ namespace Task2_2
             Console.ReadKey();
         }
 
+        #region Dictoinary related methods
         private static void AddElementsToDict(Dictionary<int, string> dict, int qty)
         {
             for (int i = 0; i < qty; i++)
@@ -51,5 +52,6 @@ namespace Task2_2
                 if (item.Key == key)
                     str = item.Value;
         }
+        #endregion
     }
 }
