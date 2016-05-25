@@ -10,13 +10,6 @@ namespace Task2_1
     {
         private string _type;
 
-        public Candy()
-        {
-            _weight = 10;
-            _name = "Buratino";
-            _type = "lolipop";
-        }
-
         public Candy(int weight, string name, string type)
         {
             _weight = weight;

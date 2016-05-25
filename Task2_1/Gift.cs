@@ -42,6 +42,7 @@ namespace Task2_1
                 if (conf is ChocolateBar)
                     conf.ToString();
             }
+
             Console.WriteLine("");
             Console.WriteLine("Общий вес подарка - " + _totalWeight);
         }
