@@ -43,6 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Candy.cs" />
+    <Compile Include="ChocolateBar.cs" />
+    <Compile Include="Confection.cs" />
+    <Compile Include="Gift.cs" />
+    <Compile Include="IGetWeight.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

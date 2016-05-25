@@ -17,6 +17,16 @@ namespace Task2_1
     {
         static void Main(string[] args)
         {
+            Gift gift = new Gift();
+
+            gift.Add(new Candy(10, "MishkaNaSevere", "chocolate"));
+            gift.Add(new Candy(30, "CupaChups", "lolipop"));
+
+            gift.Add(new ChocolateBar(200, "Alenka", "Milk"));
+            gift.Add(new ChocolateBar(90, "AlpenGold", "Friut"));
+
+            gift.ShowGiftInfo();
+            Console.ReadKey();
         }
     }
 }
